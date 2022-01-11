@@ -1,0 +1,92 @@
+.cardDesign{
+    background-color: black;
+    align-items: center;
+    color:white;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card-body {
+    width: 600px;
+}
+
+.button{
+    background-color:white;
+    color:black;
+    border-radius: 20px;
+    width:100px;
+    border:1px solid white;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: black;
+    color:white;
+}
+
+.buttonContainer{
+    position: relative;
+    left:230px;
+    margin-top:50px;
+}
+
+.homeTeam {
+    position: absolute;
+    left:100px;
+    display: inline;
+    margin:auto;
+    width:300px;
+}
+
+.awayTeam {
+    position: absolute;
+    right:100px;
+    display: inline;
+    margin: auto;
+    width:300px;
+    
+}
+
+.matchStatusStyle{
+    position:absolute;
+    display: flex;
+    width:100px;
+    justify-content: center;
+    left:430px;
+    top:27px;
+    font-weight: bold;
+    align-content: center;
+}
+
+.goalScorerContainer{
+    position: relative;
+    top:50px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.homeTeamScorers{
+    position: relative;
+    text-align: right;
+    font-size: 15px;
+    width: 200px;
+}
+
+.homeTeamScorers p{
+    margin:0;
+}
+
+.awayTeamScorers{
+    position: relative;
+    left:160px;
+    text-align: left;
+    font-size: 15px;
+    width:200px
+}
+
+.awayTeamScorers p{
+    margin: 0;
+}

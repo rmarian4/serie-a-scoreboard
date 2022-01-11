@@ -1,0 +1,28 @@
+#design{
+    overflow: scroll;
+    margin-top: 25px;
+    margin-left: 20px;
+    background-color: black !important;
+}
+
+.page-item {
+    min-width: 80px;
+}
+
+.page-item a { /*page-item is the class name of each element in the date list and a is the anchor tag*/
+    color: white;
+    background-color: #262626;
+    border-color: #6b6b47;
+}
+
+.page-item a:hover {
+    color: white;
+    background-color: black;
+    border-color: #6b6b47;
+}
+
+.page-item.active span {
+    background-color: white !important;
+    color: #262626 !important;
+    border-color: #6b6b47 !important;
+}

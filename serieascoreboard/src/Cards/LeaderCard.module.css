@@ -1,0 +1,40 @@
+.cardDesign{
+    background-color: black;
+    border:1px solid white;
+    align-items: center;
+    margin:auto;
+    margin-top: 30px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.tableDesign{
+    background-color: black;
+}
+
+.buttonDesign{
+    background-color: white;
+    color:black;
+    border-radius: 20px;
+    border:1px solid white;
+    width:100px;
+    cursor:pointer;
+}
+
+.buttonDesign:hover{
+    background-color: black;
+    color:white;
+    border:1px solid white;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+}
+

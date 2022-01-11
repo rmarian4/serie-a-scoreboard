@@ -1,0 +1,14 @@
+nav {
+    background-color: #262626 !important;
+}
+
+a.nav-link {
+    font-size:1.5rem;
+    text-decoration: none;
+    color:white !important;
+    font-family: 'Inter', sans-serif;
+}
+
+a.nav-link:hover {
+    color: #909090 !important;
+}
